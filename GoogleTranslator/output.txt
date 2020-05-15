@@ -1,0 +1,3 @@
+通过请求头信息，可以发现是get请求，请求翻译的内容是通过q这个参数传递的，其它参数暂时不知道什么意思。然后，我们就可以用requests库模仿这个请求，看看能否成功。
+Through the request header information, you can find that it is a get request, and the content requested for translation is passed through the parameter q. Other parameters do not know what it means. Then, we can use the requests library to mimic this request and see if we can succeed.
+
