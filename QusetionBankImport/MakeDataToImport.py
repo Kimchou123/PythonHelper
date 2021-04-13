@@ -15,7 +15,7 @@ def AnalyData():
     rows=cursor.fetchall()   
     queList=[]
     for i in rows:
-        soup = BeautifulSoup(i[22],'html.parser').get_text()     
+        soup = BeautifulSoup(i[22],'html.parser').get_text() #去除HTML  
         ss=json.loads(soup)
         # que=ss.get("public_question")#问题
         # analysis=ss.get("public_analysis")#分析

@@ -16,7 +16,6 @@ class ConnectSql():
         #      row = cursor.fetchone()
         #      print(row)
 
-
 # # 将SQL查询结果转换为PANDAS数据结构DataFrame
 # import pandas as pd
 # df = pd.read_sql(sql, connect) 
