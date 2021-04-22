@@ -51,7 +51,7 @@ def AnalyData():
         # print(askList)
         #    ss = json.dumps(dict(zip(columnNames, list_)))
         que={
-            "public_question":BeautifulSoup(ss.get("public_question"),'html.parser').get_text(strip=True),
+            "public_question":ss.get("public_question"),
             "public_analysis":BeautifulSoup(ss.get("public_analysis"),'html.parser').get_text(strip=True),
             "year":i[5],
             "degree":i[8],
